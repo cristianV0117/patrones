@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2023-05-24T04:38:16.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.3" etag="BrebNVn90zCsAZBuBq9g" type="device">
+  <diagram id="lATq3uw4ukvQBHr5lGAI" name="Página-1">
+    <mxGraphModel dx="778" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.682;entryY=-0.089;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="v2mTYbnNO4FGRpt6A_CR-1" target="v2mTYbnNO4FGRpt6A_CR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.358;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="v2mTYbnNO4FGRpt6A_CR-1" target="v2mTYbnNO4FGRpt6A_CR-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-1" value="«interface»&lt;br&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;NotificationService&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="10" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-2" value="«class»&lt;br&gt;NullService&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-3" value="«class»&lt;br&gt;EmailService&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="v2mTYbnNO4FGRpt6A_CR-6" target="v2mTYbnNO4FGRpt6A_CR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-6" value="«class»&lt;br&gt;NotificationApp" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="v2mTYbnNO4FGRpt6A_CR-8" target="v2mTYbnNO4FGRpt6A_CR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v2mTYbnNO4FGRpt6A_CR-8" target="v2mTYbnNO4FGRpt6A_CR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-8" value="«class»&lt;br&gt;Main" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2mTYbnNO4FGRpt6A_CR-11" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="255" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

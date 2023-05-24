@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2023-05-23T02:21:38.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="EPDN3cXKzUemLLdd5PWw" version="21.3.2" type="device">
+  <diagram name="Página-1" id="3Q19mNawQWK2DaYwnfPZ">
+    <mxGraphModel dx="778" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-5" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TT7sA_G13KQUSBTSCIV3-1" target="TT7sA_G13KQUSBTSCIV3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-8" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TT7sA_G13KQUSBTSCIV3-1" target="TT7sA_G13KQUSBTSCIV3-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-1" value="«interface»&lt;br&gt;&lt;b&gt;Response&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-2" value="«class»&lt;br&gt;&lt;b&gt;BaseResponse&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-7" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TT7sA_G13KQUSBTSCIV3-3" target="TT7sA_G13KQUSBTSCIV3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-3" value="«class»&lt;br&gt;&lt;b&gt;JsonResponse&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-4" value="«abstract class»&lt;br&gt;&lt;b&gt;ResponseDecorator&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-11" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TT7sA_G13KQUSBTSCIV3-9" target="TT7sA_G13KQUSBTSCIV3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-12" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TT7sA_G13KQUSBTSCIV3-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-9" value="«class»&lt;br&gt;&lt;b&gt;ClientResponse&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-14" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TT7sA_G13KQUSBTSCIV3-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-13" value="«class»&lt;br&gt;&lt;b&gt;Main&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TT7sA_G13KQUSBTSCIV3-15" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
